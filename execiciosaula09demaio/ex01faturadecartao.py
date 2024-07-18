@@ -1,0 +1,5 @@
+nome = input("Digite seu nome: ")
+vencimento = int(input("Digite o dia de vencimento: "))
+mesvenc = input("Digite o mes de vencimento: ")
+valorfa = float(input("Digite o valor da sua fatura: "))
+print(f"Ola fulana! \n Sua fatura com o vencimento em {vencimento}  de {mesvenc} esta no valor de {valorfa}, e esta fechada: ")

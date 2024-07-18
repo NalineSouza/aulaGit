@@ -1,0 +1,45 @@
+programa {
+  funcao inicio() {
+    inteiro idade
+    real nota
+    cadeia email, mensagem, cargo, nome_completo
+    caracter curso 
+    
+    escreva("DIGITE SUA IDADAE: ")
+    leia(idade)
+
+
+    se(idade >= 18){
+      escreva("PARABENS VOCE PASSOU NA 1º FASE: ")
+      
+      escreva("\nVOCE POSSUI CURSO DE QUALIFICACAO S/N: ")
+      leia(curso)
+
+      se(curso == 's' ou curso == 'S'){
+        escreva("\nPARABENS VOCE PASSOU NA 2º FASE: ")
+
+        escreva("DIGITE SUA NOTA DA PROVA DE CAPACITACAO:")
+        leia(nota)
+        se(nota > 7){ 
+          escreva("VERY GOOD:")
+
+        }
+        senao{
+          escreva("ohhhh nao passou, que pena, tenta da proxima vez:")
+        }
+
+      }
+      senao{
+        escreva("OBRIGADO PELA SUA PARTICIPACAO:")
+      }
+
+
+      }
+      senao{
+        escreva("OBRIGADO PELA SUA PARTICIPACAO:")
+      }
+    }
+
+  }
+}
+
